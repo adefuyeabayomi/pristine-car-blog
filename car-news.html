@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pristine Car Blog | Latest updates in Nigeria's auto industry.</title>
+        <title>Car News | Pristine Car Blog | Latest updates in Nigeria's auto industry.</title>
         <meta charset="utf-8">
         <meta lang="en">
         <meta name="description" content="We give the latest updates Nigeria's automobile industry. Enjoy multiple categories of updates, articles and incredible offers all in one place.">
@@ -11,10 +11,10 @@
         <link rel="icon" href="./blog_assets/images/utils/favicon.png" type="image/x-icon">
 
         <!--social facebook,twitter,-->
-        <meta name="og:title" content="Pristine Car Blog | Latest updates in Nigeria's auto industry.">
+        <meta name="og:title" content="Car News | Pristine Car Blog | Latest updates in Nigeria's auto industry.">
         <meta name="og:description" content="We give the latest updates Nigeria's automobile industry. Enjoy multiple categories of updates, articles and incredible offers all in one place.">
         <meta name="og:image" content="./blog_assets/images/social_cover_main.png">
-        <meta name="twitter:title" content="Pristine Car Blog | Latest updates in Nigeria's auto industry.">
+        <meta name="twitter:title" content="Car News | Pristine Car Blog | Latest updates in Nigeria's auto industry.">
         <meta name="twitter:description" content="We give the latest updates Nigeria's automobile industry. Enjoy multiple categories of updates, articles and incredible offers all in one place.">
         <meta name="twitter:image" content="./blog_assets/images/social_cover_main.png">
 
@@ -22,6 +22,7 @@
         <link type="text/css" rel="stylesheet" href="./css/mains.css">
         <link type="text/css" rel="stylesheet" href="./css/homepage_style.css">
         <link type="text/css" rel="stylesheet" href="./css/animate.css">
+        <link type="text/css" rel="stylesheet" href="./css/category-page.css">
 
 
         <!--links to preloaded scripts-->
@@ -78,9 +79,9 @@
                     <div class="header-cartegories">
                         <div class="header-cartegories-container">
                             <ul>
-                                <li><a class="active-nav" href="#">Home</a></li>
+                                <li><a href="./index.html">Home</a></li>
                                 <li><a href="./hot-topics.html">Hot Topics</a></li>
-                                <li><a href="./car-news.html">Car News</a></li>
+                                <li><a class="active-nav" href="#">Car News</a></li>
                                 <li><a href="./reviews.html">Reviews</a></li>
                                 <li><a href="./new and used cars research.html">New and Used Cars Research</a></li>
                                 <li><a href="./car care.html">Car Care</a></li>
@@ -96,9 +97,9 @@
                 <div class="blog-menu">
                     <div>
                         <ul>
-                            <li><a class="active-nav" href="#">Home</a></li>
+                            <li><a href="./index.html">Home</a></li>
                             <li><a href="./hot-topics.html">Hot Topics</a></li>
-                            <li><a href="./car-news.html">Car News</a></li>
+                            <li><a class="active-nav" href="#">Car News</a></li>
                             <li><a href="./reviews.html">Reviews</a></li>
                             <li><a href="./new and used cars research.html">New and Used Cars Research</a></li>
                             <li><a href="./car care.html">Car Care</a></li>
@@ -112,141 +113,90 @@
                     </div>
                 </div>
             </div>
+
+            
             <div class="mains-container">
                 <main class="mains-main">
-                    <div class="main-width"><!--this div has the main width property so that every content within it can have the same width. any container that does not have main width can then assume any width as specified.-->
-                        
-                        <div class="banner-container">
-                            <p class="banner-desc-text">Pristine Car Blog. The No 1 Authentic Auto Updates In Nigeria</p>
-                            <div class="search-container">
-                                <p class="search-main-contents"><button class="search-button">Search</button><span class="search-input-container"><input class="search-input" type="text" name="search-item"></span></p>
+                    <div class="main-width">
+                        <div class="category-indicators-container">
+                            <div>
+                                <p class="category-indicator-desc"><a href="./index.html">Home</a> >> <span>Hot Topics</span></p>
                             </div>
                         </div>
-                        <div class="trending-container">
-                            <div class="trending-header">
-                                <p class="section-title-style">Top Trending</p>
-                                <p class="trending-desc">Find all the interesting and new car updates in naija now right here.</p>
+                        <div class="section-divider"></div>
+                        <div class="top-in-category-section">
+                            <div>
+                                <p class="section-title-style">Top In Car News</p>
+                                <p class="section-desc"></p>
                             </div>
-                            <div class="trending-contents-container">
-                                <div class="trends-container-01">
-                                    <div class="trend-container-01-01">
-                                        <!--blog article content here-->
-                                        <div class="trend-card-container">
-                                            <div class="card">
-                                                <a href="./blog_posts/car-news/about-toyota-corolla.html">
-                                                    <div class="card-image-container">
-                                                        <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                            <div class="card-contents-container">
-                                                                <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                                <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                                <div class="card-content-blog-info">
-                                                                    <p class="card-content-cate"><span>Hot News</span></p>
-                                                                    <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                            <div class="top-in-cat-contents-container">
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
                                                     </div>
-                                                </a>
-                                              </div>
-                                        </div>
-                                    </div>
-                                    <div class="trend-container-01-02">
-                                        <!--blog article content here-->
-                                        <div class="trend-card-container">
-                                            <div class="card">
-                                                <a href="./blog_posts/car-news/about-toyota-corolla.html">
-                                                    <div class="card-image-container">
-                                                        <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                            <div class="card-contents-container">
-                                                                <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                                <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                                <div class="card-content-blog-info">
-                                                                    <p class="card-content-cate"><span>Hot News</span></p>
-                                                                    <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                              </div>
-                                        </div>
-                                    </div>
-                                    <div class="trend-container-01-03">
-                                        <!--blog article content here-->
-                                        <div class="trend-card-container">
-                                            <div class="card">
-                                                <a href="./blog_posts/car-news/about-toyota-corolla.html">
-                                                    <div class="card-image-container">
-                                                        <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                            <div class="card-contents-container">
-                                                                <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                                <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                                <div class="card-content-blog-info">
-                                                                    <p class="card-content-cate"><span>Hot News</span></p>
-                                                                    <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
+                                                  </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="trends-container-02">
-                                    <div class="trend-container-02-01">
-                                        <!--blog article content here-->
-                                        <div class="trend-card-container">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
                                                     </div>
+                                                  </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="trend-container-02-02">
-                                        <!--blog article content here-->
-                                        <div class="trend-card-container">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
                                                     </div>
+                                                  </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="trend-container-02-03">
-                                        <!--blog article content here-->
-                                        <div class="trend-card-container">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
                                                     </div>
+                                                  </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -254,116 +204,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="section-divider"></div>
-                    <div class="secondary-width "><!--container for the second row that has the sidebar using flex -->
-                        <div class="second-group-container">
-                            <div class="second-group">
-                                <div class="latests-container">
-                                    <div class="trending-header">
-                                        <p class="section-title-style">Latests</p>
-                                        <p class="trending-desc">Find all the most recent updated right here now.</p>
-                                    </div>
-                                    <div class="latest-contents-container">
-                                        <div class="latests-content-01">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="latests-content-02">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="latests-content-03">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="latests-content-04">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="latests-content-05">
-                                            <div class="card">
-                                                <div class="card-image-container">
-                                                    <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                      <div class="card-contents-container">
-                                                        <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                        <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                        <div class="card-content-blog-info">
-                                                            <p class="card-content-cate"><span>Hot News</span></p>
-                                                            <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar-container">
-                                    <!--any sidebar worthy content here.-->
-                                </div>
+                        <div class="section-divider"></div>
+                        <div class="most-recent-section">
+                            <div>
+                                <p class="section-title-style">Most Recent</p>
+                                <p class="section-desc"></p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="section-divider"></div>
-                    <div class="cartegory carnews">
-                        <div class="main-width">
-                            <div class="cartegory-container-main">
-                                <div class="trending-header">
-                                    <p class="section-title-style">Cartegory</p>
-                                    <p class="trending-desc">Find all the most recent updated right here now.</p>
-                                </div>
-                            </div>
-                            <div class="cartegory-contents">
-                                <div class="category-content-01">
+                            <div class="top-in-cat-contents-container">
+                                <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-image-container">
@@ -381,7 +229,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="category-content-02">
+                                <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-image-container">
@@ -399,7 +247,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="category-content-03">
+                                <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-image-container">
@@ -417,7 +265,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="category-content-04">
+                                <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-image-container">
@@ -435,40 +283,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cartegory-load-more-button">
-                                <button class="pointercursor">>>> See more in this category >>></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-divider"></div>
-                    <div class="aside">
-                        <div class="main-width">
-                            <div class="email-list-promo">
-                                <div class="email-sub-form-container">
-                                    <div>
-                                        <input class="email-sub-input" type="text" name="email" placeholder="Your Email">
-                                        <button class="email-sub-button">Join Now</button>
-                                    </div>
-                                </div>
-                                <div class="email-sub-cta-text">
-                                    <p class="section-title-style">Email Update</p>
-                                    <p>Sign Up to recieve the latest updates straight to your email.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-divider"></div>
-                    <div class="cartegory carnews">
-                        <div class="main-width">
-                            <div class="cartegory-container-main">
-                                <div class="trending-header">
-                                    <p class="section-title-style">Cartegory</p>
-                                    <p class="trending-desc">Find all the most recent updated right here now.</p>
-                                </div>
-                            </div>
-                            <div class="cartegory-contents">
-                                <div class="category-content-01">
+                                <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-image-container">
@@ -486,43 +301,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="category-content-02">
-                                    <div>
-                                        <div class="card">
-                                            <div class="card-image-container">
-                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                  <div class="card-contents-container">
-                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                    <div class="card-content-blog-info">
-                                                        <p class="card-content-cate"><span>Hot News</span></p>
-                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="category-content-03">
-                                    <div>
-                                        <div class="card">
-                                            <div class="card-image-container">
-                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
-                                                  <div class="card-contents-container">
-                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
-                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
-                                                    <div class="card-content-blog-info">
-                                                        <p class="card-content-cate"><span>Hot News</span></p>
-                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="category-content-04">
+                                <div>
                                     <div>
                                         <div class="card">
                                             <div class="card-image-container">
@@ -541,13 +320,242 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="cartegory-load-more-button">
-                                <button class="pointercursor">>>> See more in this category >>></button>
+                        </div>
+                        <div class="section-divider"></div>
+                        <div class="more-in-category-section">
+                            <div>
+                                <p class="section-title-style">More in this Category</p>
+                                <p class="section-desc"></p>
+                            </div>
+                            <div class="more-in-category-section-contents">
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image-container">
+                                                <div class="card-image" style="background-image: url(./blog_assets/pexels-albin-berlin-919073.jpg)">
+                                                  <div class="card-contents-container">
+                                                    <p class="card-content-title">We are Pristine Car Blog. We are here to serve you in best possible way in everything automobile in Nigeria. Enjoy all the updates and articles right here. </p>
+                                                    <p class="card-content-main">Interior Decoration is not just putting things together to be appealing, It is a lifestyle, a culture. Why? Because the way your space is organized tells alot about you. Lets make that narrative awesome.<span class="readmore-text">>>> Read More >>></span></p>
+                                                    <div class="card-content-blog-info">
+                                                        <p class="card-content-cate"><span>Hot News</span></p>
+                                                        <p class="card-content-published-time">11:22pm, 2nd September, 2022</p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="load-more-button-container">
+                                <div class="cartegory-load-more-button">
+                                    <button class="pointercursor">>>> See more in this category >>></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </main>
             </div>
+
+            
             <div class="footer-container">
                 <footer>
                     <div class="footer-main">
