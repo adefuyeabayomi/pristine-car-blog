@@ -370,6 +370,7 @@ footer a {
 
     /* blog menu style*/
 .blog-menu-container {
+    opacity : 0;
 }
 /* responsive */
 
@@ -454,6 +455,7 @@ footer a {
     }
     /* blog menu style*/
     .blog-menu-container {
+        opacity : 1;
         position: fixed;
         top: 0px;
         border: 1px solid var(--lightblue);
@@ -466,6 +468,9 @@ footer a {
         padding-top: 70px;
         right: 0px;
         padding-right: 15px;
+    }
+    .opaq {
+        opacity : 0 !important;
     }
     .blog-menu-container li {
         list-style-type: none;

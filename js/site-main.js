@@ -20,5 +20,10 @@ let app = new Vue({
                 this.animateClass = "animate__animated animate__slideOutRight"
             }
         }
+    },
+    created : function () {
+        setTimeout(()=>{
+            document.getElementsByClassName("blog-menu-container")[0].style.opacity = 1;
+        }, 2000)
     }
 })
