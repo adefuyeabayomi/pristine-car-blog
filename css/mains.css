@@ -94,14 +94,15 @@ a.active-nav {
     cursor : pointer;
   }
   .card-content-main {
-    margin-top : 10px;
-    line-height: 25px;
+    margin-top : -10px;
+    line-height: 15px;
     margin-bottom : 10px;
-    font-size: 90%;
+    font-size: 85%;
     flex : 1;
     height: max-content;
-    max-height: 29px;
+    max-height: 56px;
     overflow: hidden;
+    padding-top: 12px;
   }
   .card-content-blog-info {
     height: max-content !important;
@@ -128,7 +129,7 @@ a.active-nav {
   .card-content-blog-info > p {
     flex : 1;
     font-size: 80%;
-    padding-top: 10px;
+    padding-top: 5px;
   }
   .card-content-cate {
     text-align : left;

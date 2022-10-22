@@ -36,3 +36,11 @@
     font-size: 150%;
     font-weight: 600;
 }
+@media (max-width : 600px){
+    .category-indicators-container{
+        padding-top: 90px;
+    }
+    .header-cartegories {
+        display : none !important;
+    }
+}

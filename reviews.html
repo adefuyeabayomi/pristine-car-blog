@@ -207,15 +207,15 @@
         <div>
             <div>
                 <div class="card">
-    <a href=" ./blog_posts/reviews/xlz1yNsSRC98OYLlXCd6BYRZqXLmHUcawB2zsbGa.html ">
+    <a href=" ./blog_posts/reviews/03oPxd9MEqlGnFBYwC1dTNqHf2EpXAcIvxP2pn1s.html ">
         <div class="card-image-container">
-            <div class="card-image" style="background-image: url( ./blog_assets/images/uploads/21091294750DSC_0972GrsTTVWCYNVbt5PE1ev6kqJ6XOmYbg.jpg )">
+            <div class="card-image" style="background-image: url( ./blog_assets/images/uploads/toyota-landcruiser-prado-banner-1tpJ6aSiKSs8deZkWE7v9c65xyWChin.jpg )">
                 <div class="card-contents-container">
-                    <p class="card-content-title"> Examining the raw power of the 2022 model Toyota Land Cruiser Prado XLE V6 Engine </p>
+                    <p class="card-content-title"> A new dawn </p>
                     <p class="card-content-main"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <span class="readmore-text">>>> Read More >>></span></p>
                     <div class="card-content-blog-info">
                         <p class="card-content-cate"><span>Reviews</span></p>
-                        <p class="card-content-published-time">Friday, October 21, 2022 10:56 AM</p>
+                        <p class="card-content-published-time">Friday, October 21, 2022 10:57 AM</p>
                     </div>
                 </div>
             </div>
@@ -227,15 +227,15 @@
         <div>
             <div>
                 <div class="card">
-    <a href=" ./blog_posts/reviews/03oPxd9MEqlGnFBYwC1dTNqHf2EpXAcIvxP2pn1s.html ">
+    <a href=" ./blog_posts/reviews/xlz1yNsSRC98OYLlXCd6BYRZqXLmHUcawB2zsbGa.html ">
         <div class="card-image-container">
-            <div class="card-image" style="background-image: url( ./blog_assets/images/uploads/toyota-landcruiser-prado-banner-1tpJ6aSiKSs8deZkWE7v9c65xyWChin.jpg )">
+            <div class="card-image" style="background-image: url( ./blog_assets/images/uploads/21091294750DSC_0972GrsTTVWCYNVbt5PE1ev6kqJ6XOmYbg.jpg )">
                 <div class="card-contents-container">
-                    <p class="card-content-title"> A new dawn </p>
+                    <p class="card-content-title"> Examining the raw power of the 2022 model Toyota Land Cruiser Prado XLE V6 Engine </p>
                     <p class="card-content-main"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <span class="readmore-text">>>> Read More >>></span></p>
                     <div class="card-content-blog-info">
                         <p class="card-content-cate"><span>Reviews</span></p>
-                        <p class="card-content-published-time">Friday, October 21, 2022 10:57 AM</p>
+                        <p class="card-content-published-time">Friday, October 21, 2022 10:56 AM</p>
                     </div>
                 </div>
             </div>
@@ -596,6 +596,34 @@
             </div>
         </div>
     </body>
+    <script type="module">
+        let category = "Reviews";
+        function getCat () {
+            let catTxt = "";
+            if(category == "Hot Topics"){
+                catTxt = "cat-hot-topics";
+            }
+            else if(category == "Car News"){
+                catTxt = "cat-car-news";
+            }
+            else if(category == "Reviews"){
+                catTxt = "cat-reviews";
+            }
+            else if(category == "New and Used Cars Research"){
+                catTxt = "cat-car-research";
+            }
+            else if(category == "Car Care"){
+                catTxt = "cat-car-care";
+            }
+            else if(category == "Hot New Wheels"){
+                catTxt = "cat-hot-new-wheels";
+            }
+            return catTxt;
+        }
+        console.log("cat path", getCat() + ".js");
+        import catData from `./js/${getCat()}.js`;
+        console.log("Cat Data", catData);
+    </script>
     <script type="text/javascript" src="./js/vue.min.js" defer></script>
     <script type="text/javascript" src="./js/site-main.js" defer></script>
 </html>
