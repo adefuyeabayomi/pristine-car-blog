@@ -46,6 +46,9 @@ body a {
 a.active-nav {
     border-bottom: 5px solid;
 }
+.d-none {
+    display : none !important;
+}
 
 /* blog_card_style*/
 .card, .card-image-container, .card-image {
@@ -86,6 +89,9 @@ a.active-nav {
     height: max-content;
     max-height: 40px;
     overflow: hidden;
+  }
+  .card-content-main:hover, .card-content-title:hover {
+    cursor : pointer;
   }
   .card-content-main {
     margin-top : 10px;

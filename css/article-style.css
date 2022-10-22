@@ -22,10 +22,15 @@
 .article-text-block ,.subheading-container {
     padding : 10px 0px;
 }
-.article-text-block p{
+.article-text-block p, .list-section-block{
     color: #86979a;
     font-size: 95%;
     line-height: 30px;
+}
+.list-section-block {
+    margin-left : 15px;
+    margin-top : 15px;
+    margin-bottom : 15px
 }
 .subheading-container p {
     font-size: 150%;
